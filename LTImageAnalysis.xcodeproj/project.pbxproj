@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D66FB1F80C48EAFDCA8D363 /* libPods-LTImageAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BDEE2D3F0D0B96E55C7089 /* libPods-LTImageAnalysis.a */; };
 		C0A822141FA1AAE6004FA954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822131FA1AAE6004FA954 /* main.m */; };
 		C0A822171FA1AAE6004FA954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822161FA1AAE6004FA954 /* AppDelegate.m */; };
 		C0A8221A1FA1AAE6004FA954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822191FA1AAE6004FA954 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09BDEE2D3F0D0B96E55C7089 /* libPods-LTImageAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTImageAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D06A4376A91FEB81A40C50 /* Pods-LTImageAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTImageAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTImageAnalysis/Pods-LTImageAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
 		C0A8220F1FA1AAE6004FA954 /* LTImageAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTImageAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A822131FA1AAE6004FA954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0A822151FA1AAE6004FA954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		C0A8221E1FA1AAE6004FA954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0A822211FA1AAE6004FA954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0A822231FA1AAE6004FA954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C755AFA6BCAC37D23D060F74 /* Pods-LTImageAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTImageAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTImageAnalysis/Pods-LTImageAnalysis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D66FB1F80C48EAFDCA8D363 /* libPods-LTImageAnalysis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5498B174045129873752C590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62D06A4376A91FEB81A40C50 /* Pods-LTImageAnalysis.debug.xcconfig */,
+				C755AFA6BCAC37D23D060F74 /* Pods-LTImageAnalysis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86FBB811DC9EB50E98B541CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09BDEE2D3F0D0B96E55C7089 /* libPods-LTImageAnalysis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0A822061FA1AAE6004FA954 = {
 			isa = PBXGroup;
 			children = (
 				C0A822111FA1AAE6004FA954 /* LTImageAnalysis */,
 				C0A822101FA1AAE6004FA954 /* Products */,
+				5498B174045129873752C590 /* Pods */,
+				86FBB811DC9EB50E98B541CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0A822261FA1AAE6004FA954 /* Build configuration list for PBXNativeTarget "LTImageAnalysis" */;
 			buildPhases = (
+				84351BC1CB5C3CBB8B7DB581 /* [CP] Check Pods Manifest.lock */,
 				C0A8220B1FA1AAE6004FA954 /* Sources */,
 				C0A8220C1FA1AAE6004FA954 /* Frameworks */,
 				C0A8220D1FA1AAE6004FA954 /* Resources */,
+				BF96701566F712793233B0F6 /* [CP] Embed Pods Frameworks */,
+				5076663D5E8E489E35AAE85A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5076663D5E8E489E35AAE85A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTImageAnalysis/Pods-LTImageAnalysis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84351BC1CB5C3CBB8B7DB581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF96701566F712793233B0F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LTImageAnalysis/Pods-LTImageAnalysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0A8220B1FA1AAE6004FA954 /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		C0A822271FA1AAE6004FA954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D06A4376A91FEB81A40C50 /* Pods-LTImageAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LTImageAnalysis/Info.plist;
@@ -281,6 +357,7 @@
 		};
 		C0A822281FA1AAE6004FA954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C755AFA6BCAC37D23D060F74 /* Pods-LTImageAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LTImageAnalysis/Info.plist;
