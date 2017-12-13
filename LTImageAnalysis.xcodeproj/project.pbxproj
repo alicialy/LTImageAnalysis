@@ -8,17 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		4D66FB1F80C48EAFDCA8D363 /* libPods-LTImageAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BDEE2D3F0D0B96E55C7089 /* libPods-LTImageAnalysis.a */; };
+		C0009CD81FE0F6EB0073717A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C0009CD71FE0F6EB0073717A /* README.md */; };
+		C00DBA831FA61182008339BD /* LTFramePointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C00DBA821FA61182008339BD /* LTFramePointModel.m */; };
+		C03449CE1FA7555D00E896AE /* LTAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = C03449CD1FA7555D00E896AE /* LTAddtions.m */; };
+		C03449D11FA7559500E896AE /* UIImageView+LTAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = C03449D01FA7559500E896AE /* UIImageView+LTAddtions.m */; };
+		C03449D41FA75EE100E896AE /* LTImageDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = C03449D31FA75EE100E896AE /* LTImageDetector.mm */; };
+		C036867E1FA98F21005D3462 /* LTLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C036867D1FA98F21005D3462 /* LTLineView.m */; };
+		C05CC9341FA4B4EB00B9C5A0 /* LTProcessImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CC9331FA4B4EB00B9C5A0 /* LTProcessImageViewController.m */; };
+		C05CC93E1FA4B9AC00B9C5A0 /* LTProcessControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CC93D1FA4B9AC00B9C5A0 /* LTProcessControlView.m */; };
+		C05CC94A1FA4BE9D00B9C5A0 /* LTProcessControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CC9491FA4BE9D00B9C5A0 /* LTProcessControlModel.m */; };
 		C0A822141FA1AAE6004FA954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822131FA1AAE6004FA954 /* main.m */; };
 		C0A822171FA1AAE6004FA954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822161FA1AAE6004FA954 /* AppDelegate.m */; };
 		C0A8221A1FA1AAE6004FA954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822191FA1AAE6004FA954 /* ViewController.m */; };
 		C0A8221D1FA1AAE6004FA954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A8221B1FA1AAE6004FA954 /* Main.storyboard */; };
 		C0A8221F1FA1AAE6004FA954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A8221E1FA1AAE6004FA954 /* Assets.xcassets */; };
 		C0A822221FA1AAE6004FA954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A822201FA1AAE6004FA954 /* LaunchScreen.storyboard */; };
+		C0A822361FA2BECC004FA954 /* LTCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822351FA2BECC004FA954 /* LTCameraViewController.m */; };
+		C0A822611FA4265F004FA954 /* UIView+LTAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A822601FA4265F004FA954 /* UIView+LTAddtions.m */; };
+		C0AEEF851FB5386000909B57 /* LTSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEEF841FB5386000909B57 /* LTSliderView.m */; };
+		C0AEEF881FB57DB400909B57 /* LTValuedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AEEF871FB57DB400909B57 /* LTValuedSlider.m */; };
+		C0F069391FA57CCD008D5C3E /* LTCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F069381FA57CCD008D5C3E /* LTCropView.m */; };
+		C0F0693C1FA57CFB008D5C3E /* MTGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = C0F0693A1FA57CFB008D5C3E /* MTGeometry.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09BDEE2D3F0D0B96E55C7089 /* libPods-LTImageAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LTImageAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D06A4376A91FEB81A40C50 /* Pods-LTImageAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTImageAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTImageAnalysis/Pods-LTImageAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
+		C0009CD71FE0F6EB0073717A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		C00DBA811FA61182008339BD /* LTFramePointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTFramePointModel.h; sourceTree = "<group>"; };
+		C00DBA821FA61182008339BD /* LTFramePointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTFramePointModel.m; sourceTree = "<group>"; };
+		C03449CC1FA7555D00E896AE /* LTAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTAddtions.h; sourceTree = "<group>"; };
+		C03449CD1FA7555D00E896AE /* LTAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTAddtions.m; sourceTree = "<group>"; };
+		C03449CF1FA7559500E896AE /* UIImageView+LTAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LTAddtions.h"; sourceTree = "<group>"; };
+		C03449D01FA7559500E896AE /* UIImageView+LTAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LTAddtions.m"; sourceTree = "<group>"; };
+		C03449D21FA75EE100E896AE /* LTImageDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTImageDetector.h; sourceTree = "<group>"; };
+		C03449D31FA75EE100E896AE /* LTImageDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LTImageDetector.mm; sourceTree = "<group>"; };
+		C036867C1FA98F21005D3462 /* LTLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLineView.h; sourceTree = "<group>"; };
+		C036867D1FA98F21005D3462 /* LTLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLineView.m; sourceTree = "<group>"; };
+		C05CC9321FA4B4EB00B9C5A0 /* LTProcessImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTProcessImageViewController.h; sourceTree = "<group>"; };
+		C05CC9331FA4B4EB00B9C5A0 /* LTProcessImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTProcessImageViewController.m; sourceTree = "<group>"; };
+		C05CC93C1FA4B9AC00B9C5A0 /* LTProcessControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTProcessControlView.h; sourceTree = "<group>"; };
+		C05CC93D1FA4B9AC00B9C5A0 /* LTProcessControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTProcessControlView.m; sourceTree = "<group>"; };
+		C05CC9481FA4BE9D00B9C5A0 /* LTProcessControlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTProcessControlModel.h; sourceTree = "<group>"; };
+		C05CC9491FA4BE9D00B9C5A0 /* LTProcessControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTProcessControlModel.m; sourceTree = "<group>"; };
 		C0A8220F1FA1AAE6004FA954 /* LTImageAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTImageAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A822131FA1AAE6004FA954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0A822151FA1AAE6004FA954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +61,19 @@
 		C0A8221E1FA1AAE6004FA954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0A822211FA1AAE6004FA954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0A822231FA1AAE6004FA954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A822341FA2BECC004FA954 /* LTCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCameraViewController.h; sourceTree = "<group>"; };
+		C0A822351FA2BECC004FA954 /* LTCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCameraViewController.m; sourceTree = "<group>"; };
+		C0A822381FA2C160004FA954 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommonDefine.h; path = ../CommonDefine.h; sourceTree = "<group>"; };
+		C0A8225F1FA4265F004FA954 /* UIView+LTAddtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LTAddtions.h"; sourceTree = "<group>"; };
+		C0A822601FA4265F004FA954 /* UIView+LTAddtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LTAddtions.m"; sourceTree = "<group>"; };
+		C0AEEF831FB5386000909B57 /* LTSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSliderView.h; sourceTree = "<group>"; };
+		C0AEEF841FB5386000909B57 /* LTSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSliderView.m; sourceTree = "<group>"; };
+		C0AEEF861FB57DB400909B57 /* LTValuedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTValuedSlider.h; sourceTree = "<group>"; };
+		C0AEEF871FB57DB400909B57 /* LTValuedSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTValuedSlider.m; sourceTree = "<group>"; };
+		C0F069371FA57CCD008D5C3E /* LTCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCropView.h; sourceTree = "<group>"; };
+		C0F069381FA57CCD008D5C3E /* LTCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCropView.m; sourceTree = "<group>"; };
+		C0F0693A1FA57CFB008D5C3E /* MTGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MTGeometry.c; sourceTree = "<group>"; };
+		C0F0693B1FA57CFB008D5C3E /* MTGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGeometry.h; sourceTree = "<group>"; };
 		C755AFA6BCAC37D23D060F74 /* Pods-LTImageAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTImageAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTImageAnalysis/Pods-LTImageAnalysis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +106,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C02C99791FA5689F00106D3A /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				C03449D21FA75EE100E896AE /* LTImageDetector.h */,
+				C03449D31FA75EE100E896AE /* LTImageDetector.mm */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		C05CC9301FA4B4C800B9C5A0 /* ProcessImage */ = {
+			isa = PBXGroup;
+			children = (
+				C05CC9311FA4B4CF00B9C5A0 /* Controller */,
+				C05CC9471FA4BE7E00B9C5A0 /* Model */,
+				C05CC9351FA4B94300B9C5A0 /* View */,
+			);
+			path = ProcessImage;
+			sourceTree = "<group>";
+		};
+		C05CC9311FA4B4CF00B9C5A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C05CC9321FA4B4EB00B9C5A0 /* LTProcessImageViewController.h */,
+				C05CC9331FA4B4EB00B9C5A0 /* LTProcessImageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C05CC9351FA4B94300B9C5A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C05CC93C1FA4B9AC00B9C5A0 /* LTProcessControlView.h */,
+				C05CC93D1FA4B9AC00B9C5A0 /* LTProcessControlView.m */,
+				C0F069371FA57CCD008D5C3E /* LTCropView.h */,
+				C0F069381FA57CCD008D5C3E /* LTCropView.m */,
+				C036867C1FA98F21005D3462 /* LTLineView.h */,
+				C036867D1FA98F21005D3462 /* LTLineView.m */,
+				C0AEEF831FB5386000909B57 /* LTSliderView.h */,
+				C0AEEF841FB5386000909B57 /* LTSliderView.m */,
+				C0AEEF861FB57DB400909B57 /* LTValuedSlider.h */,
+				C0AEEF871FB57DB400909B57 /* LTValuedSlider.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C05CC9471FA4BE7E00B9C5A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C05CC9481FA4BE9D00B9C5A0 /* LTProcessControlModel.h */,
+				C05CC9491FA4BE9D00B9C5A0 /* LTProcessControlModel.m */,
+				C0F0693A1FA57CFB008D5C3E /* MTGeometry.c */,
+				C0F0693B1FA57CFB008D5C3E /* MTGeometry.h */,
+				C00DBA811FA61182008339BD /* LTFramePointModel.h */,
+				C00DBA821FA61182008339BD /* LTFramePointModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		C0A822061FA1AAE6004FA954 = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +185,15 @@
 		C0A822111FA1AAE6004FA954 /* LTImageAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				C0A8225B1FA4260B004FA954 /* Category */,
+				C02C99791FA5689F00106D3A /* OpenCV */,
+				C0A8222F1FA1E895004FA954 /* Camera */,
+				C05CC9301FA4B4C800B9C5A0 /* ProcessImage */,
 				C0A822151FA1AAE6004FA954 /* AppDelegate.h */,
 				C0A822161FA1AAE6004FA954 /* AppDelegate.m */,
 				C0A822181FA1AAE6004FA954 /* ViewController.h */,
 				C0A822191FA1AAE6004FA954 /* ViewController.m */,
+				C0A822381FA2C160004FA954 /* CommonDefine.h */,
 				C0A8221B1FA1AAE6004FA954 /* Main.storyboard */,
 				C0A8221E1FA1AAE6004FA954 /* Assets.xcassets */,
 				C0A822201FA1AAE6004FA954 /* LaunchScreen.storyboard */,
@@ -98,9 +206,40 @@
 		C0A822121FA1AAE6004FA954 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0009CD71FE0F6EB0073717A /* README.md */,
 				C0A822131FA1AAE6004FA954 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A8222F1FA1E895004FA954 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				C0A822331FA2BEBA004FA954 /* Controller */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		C0A822331FA2BEBA004FA954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0A822341FA2BECC004FA954 /* LTCameraViewController.h */,
+				C0A822351FA2BECC004FA954 /* LTCameraViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C0A8225B1FA4260B004FA954 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C0A8225F1FA4265F004FA954 /* UIView+LTAddtions.h */,
+				C0A822601FA4265F004FA954 /* UIView+LTAddtions.m */,
+				C03449CC1FA7555D00E896AE /* LTAddtions.h */,
+				C03449CD1FA7555D00E896AE /* LTAddtions.m */,
+				C03449CF1FA7559500E896AE /* UIImageView+LTAddtions.h */,
+				C03449D01FA7559500E896AE /* UIImageView+LTAddtions.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +276,7 @@
 				TargetAttributes = {
 					C0A8220E1FA1AAE6004FA954 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3YX23FAPLG;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,6 +306,7 @@
 			files = (
 				C0A822221FA1AAE6004FA954 /* LaunchScreen.storyboard in Resources */,
 				C0A8221F1FA1AAE6004FA954 /* Assets.xcassets in Resources */,
+				C0009CD81FE0F6EB0073717A /* README.md in Resources */,
 				C0A8221D1FA1AAE6004FA954 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +368,21 @@
 			files = (
 				C0A8221A1FA1AAE6004FA954 /* ViewController.m in Sources */,
 				C0A822171FA1AAE6004FA954 /* AppDelegate.m in Sources */,
+				C0F0693C1FA57CFB008D5C3E /* MTGeometry.c in Sources */,
 				C0A822141FA1AAE6004FA954 /* main.m in Sources */,
+				C03449D41FA75EE100E896AE /* LTImageDetector.mm in Sources */,
+				C05CC94A1FA4BE9D00B9C5A0 /* LTProcessControlModel.m in Sources */,
+				C05CC9341FA4B4EB00B9C5A0 /* LTProcessImageViewController.m in Sources */,
+				C00DBA831FA61182008339BD /* LTFramePointModel.m in Sources */,
+				C05CC93E1FA4B9AC00B9C5A0 /* LTProcessControlView.m in Sources */,
+				C0F069391FA57CCD008D5C3E /* LTCropView.m in Sources */,
+				C0AEEF851FB5386000909B57 /* LTSliderView.m in Sources */,
+				C036867E1FA98F21005D3462 /* LTLineView.m in Sources */,
+				C03449D11FA7559500E896AE /* UIImageView+LTAddtions.m in Sources */,
+				C0A822361FA2BECC004FA954 /* LTCameraViewController.m in Sources */,
+				C0AEEF881FB57DB400909B57 /* LTValuedSlider.m in Sources */,
+				C0A822611FA4265F004FA954 /* UIView+LTAddtions.m in Sources */,
+				C03449CE1FA7555D00E896AE /* LTAddtions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -335,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,6 +503,7 @@
 			baseConfigurationReference = 62D06A4376A91FEB81A40C50 /* Pods-LTImageAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YX23FAPLG;
 				INFOPLIST_FILE = LTImageAnalysis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leafteam.LTImageAnalysis;
@@ -360,6 +516,7 @@
 			baseConfigurationReference = C755AFA6BCAC37D23D060F74 /* Pods-LTImageAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YX23FAPLG;
 				INFOPLIST_FILE = LTImageAnalysis/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leafteam.LTImageAnalysis;
@@ -386,6 +543,7 @@
 				C0A822281FA1AAE6004FA954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
